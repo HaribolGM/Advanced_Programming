@@ -1,0 +1,49 @@
+
+
+// Program 1.16: Program demonstrate GridLayout.
+
+
+
+
+import java.awt.*;
+
+public class program_1_16 extends Frame {
+    private Button btn1, btn2, btn3, btn4, btn5, btn6;
+
+    public program_1_16(){
+
+
+        setLayout(new GridLayout(3,2,3,3));
+        btn1 = new Button ("Button 1");
+        add(btn1);
+        btn2= new Button ("Button 2");
+        add(btn2);
+        btn3 = new Button ("Button 3");
+        add(btn3);
+        btn4 = new Button("Button 4");
+        add(btn4);
+        btn5 = new Button ("Button 5");
+        add(btn5);
+        btn6 = new Button ("Button6");
+        add(btn6);
+        setTitle("GridLayoutDemo");
+        setSize(280,150);
+        setVisible(true);
+
+
+
+
+
+
+
+
+
+
+    }
+
+    public static void main(String[] args) {
+        new program_1_16();
+    }
+
+
+}
