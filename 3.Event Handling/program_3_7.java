@@ -1,3 +1,8 @@
+
+
+// Program 3.7:  Handling checkboxes events using ItemListener interface.
+
+
 import java.applet.Applet;
 import java.awt.*;
 import java.awt.event.ItemEvent;
